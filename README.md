@@ -37,7 +37,7 @@ GitHub 自动显示的 Source code 包是仓库源码，不是上述两种安装
 mkdir -p /opt/baichao-panel
 cd /opt/baichao-panel
 # 将服务器 Release 安装包上传到这里，再按实际文件名解压：
-tar -xzf baichao-panel-server-v1.2.0.tar.gz
+tar -xzf baichao-panel-server-v1.2.1.tar.gz
 cd baichao-panel-server
 cp .env.example .env
 chmod 600 .env

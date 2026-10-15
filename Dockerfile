@@ -10,4 +10,4 @@ COPY server server
 USER 10001:10001
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 CMD ["python", "-m", "server.manage", "healthcheck"]
-CMD ["gunicorn", "--workers", "1", "--threads", "4", "--worker-class", "gthread", "--timeout", "180", "--bind", "0.0.0.0:8080", "--access-logfile", "/dev/null", "--error-logfile", "-", "server.app:create_app()"]
+CMD ["gunicorn", "--no-control-socket", "--workers", "1", "--threads", "4", "--worker-class", "gthread", "--timeout", "180", "--bind", "0.0.0.0:8080", "--access-logfile", "/dev/null", "--error-logfile", "-", "server.app:create_app()"]

@@ -67,6 +67,7 @@ jobs:
             sleep 1
           done
           docker exec panel-test python -c "import json; assert json.load(open('/data/draft.json'))['data']['videos'][0]['rotation']=='Docker persistent draft'"
+          if docker logs panel-test 2>&1 | grep -q '\[ERROR\]'; then exit 1; fi
           docker inspect --format '{{.Config.User}}' panel-test | grep -q '10001'
       - name: Container diagnostics and cleanup
         if: always()
