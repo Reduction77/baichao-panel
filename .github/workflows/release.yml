@@ -1,0 +1,114 @@
+name: Test, build and release Panel
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: panel-release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-server.txt
+      - run: python -m unittest discover -s admin/windows -p "test_app.py"
+      - run: python -m unittest discover -s server -p "test_*.py"
+  windows:
+    needs: test
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - run: python -m pip install pyinstaller==6.16.0
+      - run: python admin/build_windows_exe.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-package
+          path: dist/baichao-panel-windows-v*.zip
+          if-no-files-found: error
+  server:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build the server image
+        run: docker build -t baichao-panel-test .
+      - name: Run and test the actual container
+        shell: bash
+        run: |
+          HASH=$(python -c "from server.passwords import hash_password; print(hash_password('container-password-123'))")
+          docker run -d --name panel-test -p 127.0.0.1:18765:8080 -v panel-test-data:/data --read-only --tmpfs /tmp:size=64m --cap-drop ALL --security-opt no-new-privileges --pids-limit 128 --memory 256m -e PANEL_PUBLIC_URL=https://panel.example.test -e PANEL_ADMIN_USER=admin -e PANEL_PASSWORD_HASH="$HASH" -e PANEL_GITHUB_TOKEN=dummy_container_token baichao-panel-test
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:18765/healthz >/dev/null; then break; fi
+            sleep 1
+          done
+          python scripts/test_container.py 18765
+          docker restart panel-test
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:18765/healthz >/dev/null; then break; fi
+            sleep 1
+          done
+          docker exec panel-test python -c "import json; assert json.load(open('/data/draft.json'))['data']['videos'][0]['rotation']=='Docker persistent draft'"
+          docker inspect --format '{{.Config.User}}' panel-test | grep -q '10001'
+      - name: Container diagnostics and cleanup
+        if: always()
+        run: |
+          docker logs --tail=80 panel-test || true
+          docker rm -f panel-test || true
+          docker volume rm panel-test-data || true
+      - run: python scripts/build_server_package.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: server-package
+          path: dist/baichao-panel-server-v*.tar.gz
+          if-no-files-found: error
+  release:
+    needs: [windows, server]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: '*-package'
+          path: release-assets
+          merge-multiple: true
+      - name: Publish version with two installation packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          VERSION=$(tr -d '\r\n' < VERSION)
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || exit 1
+          TAG="v$VERSION"
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release $TAG already exists; bump VERSION to publish another version."
+            exit 0
+          fi
+          cat > /tmp/release-notes.md <<'NOTES'
+          白潮 Wiki 独立管理后台，提供两个安装包：
+          - Windows ZIP：解压后双击 EXE，不需要安装 Python。
+          - Server TAR.GZ：解压后按 README 使用 Docker Compose 部署，支持管理员登录、HTTPS 反向代理与服务器草稿。
+
+          管理工具对应的公开 Wiki 仓库为 Reduction77/baichao-wiki。首次使用请配置仅授权 Wiki 仓库的 GitHub 令牌，并同步最新资料。保存草稿后可查看差异，再确认发布。
+          NOTES
+          gh release create "$TAG" "release-assets/baichao-panel-windows-v$VERSION.zip" "release-assets/baichao-panel-server-v$VERSION.tar.gz" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "白潮管理后台 $TAG" --notes-file /tmp/release-notes.md

@@ -1,0 +1,11 @@
+.git
+.github
+.env
+*.zip
+*.tar.gz
+__pycache__
+*.pyc
+build
+dist
+.local
+data

@@ -1,0 +1,10 @@
+services:
+  panel:
+    networks:
+      npm:
+        aliases:
+          - baichao-panel
+networks:
+  npm:
+    external: true
+    name: ${PANEL_NPM_NETWORK:?请在 .env 中填写 NPM 实际使用的 Docker 网络名}

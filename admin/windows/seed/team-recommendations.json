@@ -1,0 +1,1176 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-10-15",
+  "verification": "配队组合依据视频标题与简介整理，共鸣链、武器及声骸要求尚未全部核实，请以原视频为准。旧版本与特定环境视频仅作参考。",
+  "sources": {
+    "BV16S421d7ur": {
+      "url": "https://www.bilibili.com/video/BV16S421d7ur/",
+      "title": "凌阳养成作业与散华维里奈队伍技巧",
+      "up": "叫我棉被／金铃子攻略组",
+      "gameVersion": "1.0",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV17gr7YsERk": {
+      "url": "https://www.bilibili.com/video/BV17gr7YsERk/",
+      "title": "珂莱塔、桃祈／折枝、守岸人／维里奈／白芷手法教学",
+      "up": "吃我无痕",
+      "gameVersion": "2.0",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1vxrWYBEvm": {
+      "url": "https://www.bilibili.com/video/BV1vxrWYBEvm/",
+      "title": "珂莱塔配队实战：珂散守／维与珂离守",
+      "up": "金铃子攻略组",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1SG3x6nEoJ": {
+      "url": "https://www.bilibili.com/video/BV1SG3x6nEoJ/",
+      "title": "绯雪、洛瑟菈、穗穗25秒循环",
+      "up": "问号七月三",
+      "gameVersion": "3.5",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1MAxmeqEgd": {
+      "url": "https://www.bilibili.com/video/BV1MAxmeqEgd/",
+      "title": "超载区深境之塔：暗散芷与炽离奈",
+      "up": "幽尼蔻unicorn",
+      "gameVersion": "1.3",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1D8xCeaEsq": {
+      "url": "https://www.bilibili.com/video/BV1D8xCeaEsq/",
+      "title": "安可散华守岸人配队与循环轴",
+      "up": "金铃子攻略组",
+      "gameVersion": "1.3",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1pZ421g7jU": {
+      "url": "https://www.bilibili.com/video/BV1pZ421g7jU/",
+      "title": "安可养成作业与散华维里奈队伍技巧",
+      "up": "叫我棉被／金铃子攻略组",
+      "gameVersion": "1.0",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1iKQFY8EEK": {
+      "url": "https://www.bilibili.com/video/BV1iKQFY8EEK/",
+      "title": "龙凤手法教学：今汐、长离、维里奈",
+      "up": "吃我无痕",
+      "gameVersion": "2.1",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1Sn4Jz9E4a": {
+      "url": "https://www.bilibili.com/video/BV1Sn4Jz9E4a/",
+      "title": "嘉贝莉娜、露帕、守岸人基础循环",
+      "up": "问号七月三",
+      "gameVersion": "2.7",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1BoFfzEEhR": {
+      "url": "https://www.bilibili.com/video/BV1BoFfzEEhR/",
+      "title": "爱莫琳轮椅手法教学",
+      "up": "丷涂山红红",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1X8YM68Emx": {
+      "url": "https://www.bilibili.com/video/BV1X8YM68Emx/",
+      "title": "景燃配队攻略：景月守25秒轮椅轴",
+      "up": "猫眼石攻略组",
+      "gameVersion": "3.6",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV18s421u7oV": {
+      "url": "https://www.bilibili.com/video/BV18s421u7oV/",
+      "title": "卡卡罗、吟霖、维里奈阵容教学",
+      "up": "-渝亮-",
+      "gameVersion": "1.0",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1r62xYeELq": {
+      "url": "https://www.bilibili.com/video/BV1r62xYeELq/",
+      "title": "相里要守岸人，吟霖／鉴心快速启动循环",
+      "up": "丷涂山红红",
+      "gameVersion": "1.3",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV112pUzRECY": {
+      "url": "https://www.bilibili.com/video/BV112pUzRECY/",
+      "title": "日月守轮椅2旋切1升龙手法",
+      "up": "吃我无痕",
+      "gameVersion": "2.6",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1ptad65EYs": {
+      "url": "https://www.bilibili.com/video/BV1ptad65EYs/",
+      "title": "心、导电漂泊者、卜灵配队轮椅轴",
+      "up": "清晨不易",
+      "gameVersion": "3.7",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1BYa96wEUf": {
+      "url": "https://www.bilibili.com/video/BV1BYa96wEUf/",
+      "title": "心、导电漂泊者、穗穗配队轮椅轴",
+      "up": "清晨不易",
+      "gameVersion": "3.7",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV15s421T7Zm": {
+      "url": "https://www.bilibili.com/video/BV15s421T7Zm/",
+      "title": "忌炎、莫特斐、维里奈阵容操作",
+      "up": "-渝亮-",
+      "gameVersion": "1.0",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1jJXoBHEkG": {
+      "url": "https://www.bilibili.com/video/BV1jJXoBHEkG/",
+      "title": "卡提希娅、夏空、气动漂泊者配队教学",
+      "up": "猫眼石攻略组",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1GkMrz5Eoc": {
+      "url": "https://www.bilibili.com/video/BV1GkMrz5Eoc/",
+      "title": "卡提希娅、散华、气动漂泊者双下落教学",
+      "up": "吃我无痕",
+      "gameVersion": "2.4",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV15dwyz6EVL": {
+      "url": "https://www.bilibili.com/video/BV15dwyz6EVL/",
+      "title": "西格莉卡、仇远、守岸人轮椅轴",
+      "up": "清和月Zzzz",
+      "gameVersion": "3.2",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1q9bo6eEqR": {
+      "url": "https://www.bilibili.com/video/BV1q9bo6eEqR/",
+      "title": "清宵、达妮娅、莫宁轮切手法",
+      "up": "吃我无痕",
+      "gameVersion": "3.6",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV12oVf6LEGD": {
+      "url": "https://www.bilibili.com/video/BV12oVf6LEGD/",
+      "title": "灯灯、散华、维里奈深塔实战",
+      "up": "仙酒银河",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1xRKNeAEJE": {
+      "url": "https://www.bilibili.com/video/BV1xRKNeAEJE/",
+      "title": "菲比、衍射漂泊者、守岸人3E轴",
+      "up": "金铃子攻略组",
+      "gameVersion": "2.1",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV13bG2zPEVm": {
+      "url": "https://www.bilibili.com/video/BV13bG2zPEVm/",
+      "title": "赞妮、菲比、守岸人3终夜手法",
+      "up": "吃我无痕",
+      "gameVersion": "2.3",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1LSG6zsEMa": {
+      "url": "https://www.bilibili.com/video/BV1LSG6zsEMa/",
+      "title": "赞妮、菲比、衍射漂泊者4终夜手法",
+      "up": "吃我无痕",
+      "gameVersion": "2.3",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1r6AzzuEcQ": {
+      "url": "https://www.bilibili.com/video/BV1r6AzzuEcQ/",
+      "title": "V3.1陆赫斯配队详解",
+      "up": "轩儿Xuaner_",
+      "gameVersion": "3.1",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1bBEK6jEFF": {
+      "url": "https://www.bilibili.com/video/BV1bBEK6jEFF/",
+      "title": "露西、丽贝卡、守岸人25秒循环",
+      "up": "问号七月三",
+      "gameVersion": "3.4",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1YGUfYSEuo": {
+      "url": "https://www.bilibili.com/video/BV1YGUfYSEuo/",
+      "title": "椿、散华、守岸人配队攻略",
+      "up": "金铃子攻略组",
+      "gameVersion": "1.4",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1kq8KzjEip": {
+      "url": "https://www.bilibili.com/video/BV1kq8KzjEip/",
+      "title": "弗洛洛、坎特蕾拉、守岸人全时停循环",
+      "up": "问号七月三",
+      "gameVersion": "2.5",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1YiNj6nE2i": {
+      "url": "https://www.bilibili.com/video/BV1YiNj6nE2i/",
+      "title": "秧秧玄翎、千咲、尤诺轮切手法",
+      "up": "吃我无痕",
+      "gameVersion": "3.5",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1c9Nc69EKR": {
+      "url": "https://www.bilibili.com/video/BV1c9Nc69EKR/",
+      "title": "V3.5秧秧·玄翎配队详解",
+      "up": "轩儿Xuaner_",
+      "gameVersion": "3.5",
+      "checkedAt": "2026-10-15",
+      "verification": "title-description"
+    },
+    "BV1VAsseLEGd": {
+      "url": "https://www.bilibili.com/video/BV1VAsseLEGd/",
+      "title": "【鸣潮】今汐折枝超详细配队教学 含轮椅 双喷 延奏后置教学",
+      "up": "金铃子攻略组",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "user-provided"
+    },
+    "BV1Q5zGYbEQQ": {
+      "url": "https://www.bilibili.com/video/BV1Q5zGYbEQQ/",
+      "title": "真·全网首发，今折守双喷合轴教学解析",
+      "up": "Bob冲冲冲",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "user-provided"
+    },
+    "BV1UNFaefE4b": {
+      "url": "https://www.bilibili.com/video/BV1UNFaefE4b/",
+      "title": "【鸣潮】你的今武门玩对了吗？萌新必看的今武门提高伤害小技巧，今汐渊武维里奈",
+      "up": "吃我无痕",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "user-provided"
+    },
+    "BV1qrFhYMEWJ": {
+      "url": "https://www.bilibili.com/video/BV1qrFhYMEWJ/",
+      "title": "【鸣潮】不想抽折枝？试试今吟花！简化版双喷轴详细讲解~",
+      "up": "历不厉害你紫哥",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "user-provided"
+    },
+    "BV1sfYA6KEGm": {
+      "url": "https://www.bilibili.com/video/BV1sfYA6KEGm/",
+      "title": "8.3wdps！今汐喝大汤，心汐守详细教学 | 心配队攻略—心汐守25s标准轴教学",
+      "up": "猫眼石攻略组",
+      "gameVersion": null,
+      "checkedAt": "2026-10-15",
+      "verification": "user-provided"
+    }
+  },
+  "teams": [
+    {
+      "id": "BV16S421d7ur-1104-1",
+      "characters": [
+        "1104",
+        "1102",
+        "1503"
+      ],
+      "mains": [
+        "1104"
+      ],
+      "name": "凌阳 / 散华 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV16S421d7ur"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV17gr7YsERk-1107-2",
+      "characters": [
+        "1107",
+        "1105",
+        "1505"
+      ],
+      "mains": [
+        "1107"
+      ],
+      "name": "珂莱塔 / 折枝 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV17gr7YsERk"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV17gr7YsERk-1107-3",
+      "characters": [
+        "1107",
+        "1105",
+        "1503"
+      ],
+      "mains": [
+        "1107"
+      ],
+      "name": "珂莱塔 / 折枝 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV17gr7YsERk"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV17gr7YsERk-1107-4",
+      "characters": [
+        "1107",
+        "1601",
+        "1505"
+      ],
+      "mains": [
+        "1107"
+      ],
+      "name": "珂莱塔 / 桃祈 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV17gr7YsERk"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV17gr7YsERk-1107-5",
+      "characters": [
+        "1107",
+        "1601",
+        "1103"
+      ],
+      "mains": [
+        "1107"
+      ],
+      "name": "珂莱塔 / 桃祈 / 白芷",
+      "system": "常规",
+      "sourceIds": [
+        "BV17gr7YsERk"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1vxrWYBEvm-1107-6",
+      "characters": [
+        "1107",
+        "1102",
+        "1505"
+      ],
+      "mains": [
+        "1107"
+      ],
+      "name": "珂莱塔 / 散华 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1vxrWYBEvm"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1vxrWYBEvm-1107-7",
+      "characters": [
+        "1107",
+        "1102",
+        "1503"
+      ],
+      "mains": [
+        "1107"
+      ],
+      "name": "珂莱塔 / 散华 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV1vxrWYBEvm"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1vxrWYBEvm-1107-8",
+      "characters": [
+        "1107",
+        "1205",
+        "1505"
+      ],
+      "mains": [
+        "1107",
+        "1205"
+      ],
+      "name": "珂莱塔 / 长离 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1vxrWYBEvm"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1SG3x6nEoJ-1108-9",
+      "characters": [
+        "1108",
+        "1109",
+        "1110"
+      ],
+      "mains": [
+        "1108"
+      ],
+      "name": "绯雪 / 洛瑟菈 / 穗穗",
+      "system": "霜渐",
+      "sourceIds": [
+        "BV1SG3x6nEoJ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1MAxmeqEgd-1202-10",
+      "characters": [
+        "1202",
+        "1205",
+        "1503"
+      ],
+      "mains": [
+        "1202",
+        "1205"
+      ],
+      "name": "炽霞 / 长离 / 维里奈",
+      "system": "特定深塔实战",
+      "sourceIds": [
+        "BV1MAxmeqEgd"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "实战参考"
+    },
+    {
+      "id": "BV1MAxmeqEgd-1604-11",
+      "characters": [
+        "1604",
+        "1102",
+        "1103"
+      ],
+      "mains": [
+        "1604"
+      ],
+      "name": "漂泊者·湮灭 / 散华 / 白芷",
+      "system": "特定深塔实战",
+      "sourceIds": [
+        "BV1MAxmeqEgd"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "实战参考"
+    },
+    {
+      "id": "BV1D8xCeaEsq-1203-12",
+      "characters": [
+        "1203",
+        "1102",
+        "1505"
+      ],
+      "mains": [
+        "1203"
+      ],
+      "name": "安可 / 散华 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1D8xCeaEsq"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1pZ421g7jU-1203-13",
+      "characters": [
+        "1203",
+        "1102",
+        "1503"
+      ],
+      "mains": [
+        "1203"
+      ],
+      "name": "安可 / 散华 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV1pZ421g7jU"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1iKQFY8EEK-1304-14",
+      "characters": [
+        "1304",
+        "1205",
+        "1503"
+      ],
+      "mains": [
+        "1304",
+        "1205"
+      ],
+      "name": "今汐 / 长离 / 维里奈",
+      "system": "双输出",
+      "sourceIds": [
+        "BV1iKQFY8EEK"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1Sn4Jz9E4a-1208-15",
+      "characters": [
+        "1208",
+        "1207",
+        "1505"
+      ],
+      "mains": [
+        "1208"
+      ],
+      "name": "嘉贝莉娜 / 露帕 / 守岸人",
+      "system": "热熔",
+      "sourceIds": [
+        "BV1Sn4Jz9E4a"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1BoFfzEEhR-1210-16",
+      "characters": [
+        "1210",
+        "1509",
+        "1209"
+      ],
+      "mains": [
+        "1210"
+      ],
+      "name": "爱弥斯 / 琳奈 / 莫宁",
+      "system": "常规",
+      "sourceIds": [
+        "BV1BoFfzEEhR"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1X8YM68Emx-1212-17",
+      "characters": [
+        "1212",
+        "1410",
+        "1505"
+      ],
+      "mains": [
+        "1212"
+      ],
+      "name": "景燃 / 尤诺 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1X8YM68Emx"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV18s421u7oV-1301-18",
+      "characters": [
+        "1301",
+        "1302",
+        "1503"
+      ],
+      "mains": [
+        "1301"
+      ],
+      "name": "卡卡罗 / 吟霖 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV18s421u7oV"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1r62xYeELq-1305-19",
+      "characters": [
+        "1305",
+        "1302",
+        "1505"
+      ],
+      "mains": [
+        "1305"
+      ],
+      "name": "相里要 / 吟霖 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1r62xYeELq"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1r62xYeELq-1305-20",
+      "characters": [
+        "1305",
+        "1405",
+        "1505"
+      ],
+      "mains": [
+        "1305"
+      ],
+      "name": "相里要 / 鉴心 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1r62xYeELq"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV112pUzRECY-1306-21",
+      "characters": [
+        "1306",
+        "1410",
+        "1505"
+      ],
+      "mains": [
+        "1306"
+      ],
+      "name": "奥古斯塔 / 尤诺 / 守岸人",
+      "system": "日月守",
+      "sourceIds": [
+        "BV112pUzRECY"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1ptad65EYs-1311-22",
+      "characters": [
+        "1311",
+        "1309",
+        "1307"
+      ],
+      "mains": [
+        "1311"
+      ],
+      "name": "心 / 漂泊者·导电 / 卜灵",
+      "system": "电磁",
+      "sourceIds": [
+        "BV1ptad65EYs"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1BYa96wEUf-1311-23",
+      "characters": [
+        "1311",
+        "1309",
+        "1110"
+      ],
+      "mains": [
+        "1311"
+      ],
+      "name": "心 / 漂泊者·导电 / 穗穗",
+      "system": "电磁",
+      "sourceIds": [
+        "BV1BYa96wEUf"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV15s421T7Zm-1404-24",
+      "characters": [
+        "1404",
+        "1204",
+        "1503"
+      ],
+      "mains": [
+        "1404"
+      ],
+      "name": "忌炎 / 莫特斐 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV15s421T7Zm"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1jJXoBHEkG-1409-25",
+      "characters": [
+        "1409",
+        "1407",
+        "1406"
+      ],
+      "mains": [
+        "1409"
+      ],
+      "name": "卡提希娅 / 夏空 / 漂泊者·气动",
+      "system": "风蚀",
+      "sourceIds": [
+        "BV1jJXoBHEkG"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1GkMrz5Eoc-1409-26",
+      "characters": [
+        "1409",
+        "1102",
+        "1406"
+      ],
+      "mains": [
+        "1409"
+      ],
+      "name": "卡提希娅 / 散华 / 漂泊者·气动",
+      "system": "风蚀",
+      "sourceIds": [
+        "BV1GkMrz5Eoc"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV15dwyz6EVL-1412-27",
+      "characters": [
+        "1412",
+        "1411",
+        "1505"
+      ],
+      "mains": [
+        "1412"
+      ],
+      "name": "西格莉卡 / 仇远 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV15dwyz6EVL"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1q9bo6eEqR-1413-28",
+      "characters": [
+        "1413",
+        "1211",
+        "1209"
+      ],
+      "mains": [
+        "1413"
+      ],
+      "name": "清宵 / 达妮娅 / 莫宁",
+      "system": "常规",
+      "sourceIds": [
+        "BV1q9bo6eEqR"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV12oVf6LEGD-1504-29",
+      "characters": [
+        "1504",
+        "1102",
+        "1503"
+      ],
+      "mains": [
+        "1504"
+      ],
+      "name": "灯灯 / 散华 / 维里奈",
+      "system": "特定深塔实战",
+      "sourceIds": [
+        "BV12oVf6LEGD"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "实战参考"
+    },
+    {
+      "id": "BV1xRKNeAEJE-1506-30",
+      "characters": [
+        "1506",
+        "1501",
+        "1505"
+      ],
+      "mains": [
+        "1506"
+      ],
+      "name": "菲比 / 漂泊者·衍射 / 守岸人",
+      "system": "光噪（菲比输出）",
+      "sourceIds": [
+        "BV1xRKNeAEJE"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV13bG2zPEVm-1507-31",
+      "characters": [
+        "1507",
+        "1506",
+        "1505"
+      ],
+      "mains": [
+        "1507"
+      ],
+      "name": "赞妮 / 菲比 / 守岸人",
+      "system": "光噪（菲比辅助）",
+      "sourceIds": [
+        "BV13bG2zPEVm"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1LSG6zsEMa-1507-32",
+      "characters": [
+        "1507",
+        "1506",
+        "1501"
+      ],
+      "mains": [
+        "1507"
+      ],
+      "name": "赞妮 / 菲比 / 漂泊者·衍射",
+      "system": "光噪（菲比辅助）",
+      "sourceIds": [
+        "BV1LSG6zsEMa"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1r6AzzuEcQ-1510-33",
+      "characters": [
+        "1510",
+        "1509",
+        "1209"
+      ],
+      "mains": [
+        "1510"
+      ],
+      "name": "陆·赫斯 / 琳奈 / 莫宁",
+      "system": "常规",
+      "sourceIds": [
+        "BV1r6AzzuEcQ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1r6AzzuEcQ-1510-34",
+      "characters": [
+        "1510",
+        "1509",
+        "1505"
+      ],
+      "mains": [
+        "1510"
+      ],
+      "name": "陆·赫斯 / 琳奈 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1r6AzzuEcQ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1r6AzzuEcQ-1510-35",
+      "characters": [
+        "1510",
+        "1102",
+        "1209"
+      ],
+      "mains": [
+        "1510"
+      ],
+      "name": "陆·赫斯 / 散华 / 莫宁",
+      "system": "常规",
+      "sourceIds": [
+        "BV1r6AzzuEcQ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1r6AzzuEcQ-1510-36",
+      "characters": [
+        "1510",
+        "1102",
+        "1505"
+      ],
+      "mains": [
+        "1510"
+      ],
+      "name": "陆·赫斯 / 散华 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1r6AzzuEcQ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1bBEK6jEFF-1511-37",
+      "characters": [
+        "1511",
+        "1308",
+        "1505"
+      ],
+      "mains": [
+        "1511"
+      ],
+      "name": "露西 / 丽贝卡 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1bBEK6jEFF"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1YGUfYSEuo-1603-38",
+      "characters": [
+        "1603",
+        "1102",
+        "1505"
+      ],
+      "mains": [
+        "1603"
+      ],
+      "name": "椿 / 散华 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1YGUfYSEuo"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1kq8KzjEip-1608-39",
+      "characters": [
+        "1608",
+        "1607",
+        "1505"
+      ],
+      "mains": [
+        "1608"
+      ],
+      "name": "弗洛洛 / 坎特蕾拉 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1kq8KzjEip"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1YiNj6nE2i-1610-40",
+      "characters": [
+        "1610",
+        "1508",
+        "1410"
+      ],
+      "mains": [
+        "1610"
+      ],
+      "name": "秧秧·玄翎 / 千咲 / 尤诺",
+      "system": "常规",
+      "sourceIds": [
+        "BV1YiNj6nE2i"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1c9Nc69EKR-1610-41",
+      "characters": [
+        "1610",
+        "1308",
+        "1508"
+      ],
+      "mains": [
+        "1610"
+      ],
+      "name": "秧秧·玄翎 / 丽贝卡 / 千咲",
+      "system": "常规",
+      "sourceIds": [
+        "BV1c9Nc69EKR"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1c9Nc69EKR-1610-42",
+      "characters": [
+        "1610",
+        "1509",
+        "1508"
+      ],
+      "mains": [
+        "1610"
+      ],
+      "name": "秧秧·玄翎 / 琳奈 / 千咲",
+      "system": "常规",
+      "sourceIds": [
+        "BV1c9Nc69EKR"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1VAsseLEGd-1304-43",
+      "characters": [
+        "1304",
+        "1105",
+        "1503"
+      ],
+      "mains": [
+        "1304"
+      ],
+      "name": "今汐 / 折枝 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV1VAsseLEGd"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1Q5zGYbEQQ-1304-44",
+      "characters": [
+        "1304",
+        "1105",
+        "1505"
+      ],
+      "mains": [
+        "1304"
+      ],
+      "name": "今汐 / 折枝 / 守岸人",
+      "system": "常规",
+      "sourceIds": [
+        "BV1Q5zGYbEQQ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1UNFaefE4b-1304-45",
+      "characters": [
+        "1304",
+        "1503",
+        "1303"
+      ],
+      "mains": [
+        "1304"
+      ],
+      "name": "今汐 / 维里奈 / 渊武",
+      "system": "常规",
+      "sourceIds": [
+        "BV1UNFaefE4b"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1qrFhYMEWJ-1304-46",
+      "characters": [
+        "1304",
+        "1302",
+        "1503"
+      ],
+      "mains": [
+        "1304"
+      ],
+      "name": "今汐 / 吟霖 / 维里奈",
+      "system": "常规",
+      "sourceIds": [
+        "BV1qrFhYMEWJ"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    },
+    {
+      "id": "BV1sfYA6KEGm-1304-47",
+      "characters": [
+        "1304",
+        "1311",
+        "1505"
+      ],
+      "mains": [
+        "1304",
+        "1311"
+      ],
+      "name": "今汐 / 心 / 守岸人",
+      "system": "同奏",
+      "sourceIds": [
+        "BV1sfYA6KEGm"
+      ],
+      "requirements": "共鸣链、武器与声骸门槛未核实，请以原视频为准。",
+      "kind": "教学参考"
+    }
+  ],
+  "coveredMains": [
+    "1104",
+    "1107",
+    "1108",
+    "1202",
+    "1203",
+    "1205",
+    "1208",
+    "1210",
+    "1212",
+    "1301",
+    "1304",
+    "1305",
+    "1306",
+    "1311",
+    "1404",
+    "1409",
+    "1412",
+    "1413",
+    "1504",
+    "1506",
+    "1507",
+    "1510",
+    "1511",
+    "1603",
+    "1604",
+    "1608",
+    "1610"
+  ]
+}

@@ -1,0 +1,4 @@
+'use strict';
+let csrf='';
+(async()=>{try{const r=await fetch('/api/login-session');const data=await r.json();if(!r.ok)throw Error(data.error);csrf=data.csrf;}catch{document.querySelector('#login-error').textContent='登录页面加载失败，请刷新重试。';}})();
+document.querySelector('#login-form').addEventListener('submit',async e=>{e.preventDefault();const f=e.currentTarget,b=f.querySelector('button'),error=document.querySelector('#login-error');b.disabled=true;error.textContent='';try{if(!csrf)throw Error('请刷新页面后重试。');const data=new FormData(f);const r=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify({username:data.get('username'),password:data.get('password')})});const out=await r.json();if(!r.ok)throw Error(out.error||'登录失败');location.assign('/');}catch(err){error.textContent=err.message;}finally{b.disabled=false;}});
